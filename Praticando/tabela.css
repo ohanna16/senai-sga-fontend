@@ -1,0 +1,30 @@
+body {
+    font-family:Calibri;
+    font-size: 14pt;
+}
+
+ 
+.cabeçalho{
+    font-weight: bold;
+    background-color: rgb(79,129,189);
+}    
+    
+.coco{
+    background-color: rgb(208,216,232);
+}    
+
+.Manga{
+     background-color: rgb(233,237,244);
+}
+
+.Caju{
+    background-color: rgb(208,216,232);
+}
+
+.Caja{
+    background-color: rgb(233,237,244);
+}
+    
+    
+    
+
