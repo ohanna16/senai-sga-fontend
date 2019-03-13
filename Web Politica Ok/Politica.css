@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/*perfil 1 */
+
+div.menu_topo{
+    background-color:black; 
+    background-repeat: repeat-x;
+    height: 60px;
+    padding:10px;
+    border: 1;
+}
+
+div.menu_topo a {
+   
+    font-family:tahoma,arial,verdana;
+    font-size: 12px;
+    padding: 2px 13px 4px 10px;
+    text-decoration: none;
+}
+
+div.img{
+  background-image: url("giflula.gif");
+}
+
+
+/* Partido Politico*/
+
+div.img{
+  background-image: url("pt1.jpg") 
+}
+
+div.text1{
+  font-family:tahoma,arial,verdana;
+  font-size: 16px;
+
+}
+
+  /* Historia */
+
+  #centro{
+     background-color:black;
+     text-align:center;
+     padding:3px;
+     float: left;
+     margin:5px;
+     border:#d4dcde 1px solid;
+     width: 180px;
+     height: 248px;
+    }
+   .text1{
+       padding: 4px;
+       text-align:center; 
+       font-family:calibri;
+       font-size:14pt; 
+    } 
+
+    .text2{
+        text-indent: 50px;
+        text-align:center; 
+        font-family:calibri;
+        font-size:14pt; 
+     } 
+
+     .text3{
+        text-align:center; 
+        font-family:calibri;
+        font-size:14pt; 
+     } 

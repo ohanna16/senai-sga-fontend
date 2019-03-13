@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="index.css">
+        
+    <meta charset="UTF-8"/>
+    <title>Pagina Contato</title>
+</head>
+<body bgcolor="#008B8B">
+    <center>
+    <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+	<input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+	<input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
+	<input type="hidden" name="email" value="email@doseudominio">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+	<body>
+	<p> 
+	Nome:<br /> 
+	<input type="text" size="30" name="nome"> 
+	</p>   
+	
+	<p>
+	E-mail:<br /> 
+	<input type="text" size="30" name="replyto"> 
+	</p>   
+	
+	<p> 
+	Comentários:<br /> 
+	<input type="text" size="35" name="Comentarios"> 
+	</p>   
+	
+	<p> 
+	<input type="submit" name="BTEnvia" value="Enviar"> 
+	<input type="reset" name="BTApaga" value="Apagar"> </p> 
+	</form>
+    </center>
+</body>  
+</html>
